@@ -16,6 +16,8 @@ class TextFieldWidget extends StatelessWidget {
   final String? hintText;
   final bool obscureText;
   final bool readOnly;
+  final Widget? prefixIcon;
+  final Widget? suffixIcon;
 
   TextFieldWidget(
       {super.key,
@@ -27,7 +29,9 @@ class TextFieldWidget extends StatelessWidget {
       this.maxLines = 1,
       required this.onTextFieldChanged,
       this.obscureText = false,
-      this.readOnly = false});
+      this.readOnly = false,
+      this.prefixIcon,
+      this.suffixIcon});
 
   @override
   Widget build(BuildContext context) {
@@ -45,19 +49,19 @@ class TextFieldWidget extends StatelessWidget {
         cursorColor: AppColor.black,
         obscureText: obscureText,
         decoration: InputDecoration(
-            counterText: '',
-            hintStyle: Theme.of(context)
-                .textTheme
-                .xSmall
-                .copyWith(color: AppColor.grey),
-            hintText: hintText,
-            contentPadding: const EdgeInsets.all(xxTinierSpacing),
-            enabledBorder: const OutlineInputBorder(
-                borderSide: BorderSide(color: AppColor.lightGrey)),
-            focusedBorder: const OutlineInputBorder(
-              borderSide: BorderSide(color: AppColor.lightGrey),
-            ),
-            filled: true,
-            fillColor: AppColor.white));
+          counterText: '',
+          hintStyle:
+              Theme.of(context).textTheme.xSmall.copyWith(color: AppColor.grey),
+          hintText: hintText,
+          contentPadding: const EdgeInsets.all(xxTinierSpacing),
+          enabled: true,
+          filled: true,
+          border: UnderlineInputBorder(
+              borderRadius: BorderRadius.circular(10),
+              borderSide: BorderSide.none),
+          fillColor: AppColor.lightestGrey,
+          prefixIcon: prefixIcon,
+          suffixIcon: suffixIcon,
+        ));
   }
 }

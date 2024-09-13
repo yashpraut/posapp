@@ -50,7 +50,7 @@
 //                                 width: kAlertDialogTogether,
 //                                 height: kAlertDialogTogether,
 //                                 decoration: BoxDecoration(
-//                                     color: AppColor.blueGrey,
+//                                     color: AppColor.lightBlue,
 //                                     borderRadius: BorderRadius.circular(
 //                                         kAlertDialogRadius)),
 //                                 child: const Center(
@@ -76,7 +76,7 @@
 //                             width: kAlertDialogTogether,
 //                             height: kAlertDialogTogether,
 //                             decoration: BoxDecoration(
-//                                 color: AppColor.blueGrey,
+//                                 color: AppColor.lightBlue,
 //                                 borderRadius:
 //                                     BorderRadius.circular(kAlertDialogRadius)),
 //                             child: const Center(
@@ -110,7 +110,7 @@
 //                               width: kAlertDialogTogether,
 //                               height: kAlertDialogTogether,
 //                               decoration: BoxDecoration(
-//                                   color: AppColor.blueGrey,
+//                                   color: AppColor.lightBlue,
 //                                   borderRadius: BorderRadius.circular(
 //                                       kAlertDialogRadius)),
 //                               child: const Center(

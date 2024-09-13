@@ -45,7 +45,7 @@ class _CustomQRCodeScannerState extends State<CustomQRCodeScanner> {
               key: qrKey,
               onQRViewCreated: _onQRViewCreated,
               overlay: QrScannerOverlayShape(
-                  borderColor: AppColor.blueGrey,
+                  borderColor: AppColor.lightBlue,
                   borderRadius: kQRBorderRadius,
                   borderLength: kQRBorderLength,
                   borderWidth: kQRBorderWidth),

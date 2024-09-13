@@ -5,15 +5,15 @@ class AppColor {
   static const Color ghostWhite = Color(0xFFf6f8ff);
   static const Color mediumBlack = Color(0xFF3C3C3C);
   static const Color black = Color(0xDD000000);
-  static const Color blueGrey = Color(0xffcfe0ea);
-  static const Color lightestblueGrey = Color(0xffdfe9ef);
-  static const Color lightBlueGrey = Color(0xffcce0ec);
-  static const Color lightestBlue = Color(0xFFF0F4F7);
-  static const Color deepBlue = Color(0xFF0065BB);
+  static const Color lightestlightBlue = Color(0xffdfe9ef);
+  static const Color lightlightBlue = Color(0xffcce0ec);
+  static const Color deepBlue = Color(0xFF112D4E);
+  static const Color lightBlue = Color(0xFF3F72AF);
+  static const Color lightestBlue = Color(0xFFDBE2EF);
   static const Color grey = Color(0xFF9E9E9E);
   static const Color lightGrey = Color(0xFFE0E0E0);
   static const Color lightestGrey = Color(0xFFE6E6E6);
-  static const Color lightBlue = Color(0xFF74CDEA);
+  static const Color skyBlue = Color(0xFF74CDEA);
   static const Color errorRed = Color(0xFFDF4661);
   static const Color lightGreen = Color(0xFF99C051);
   static const Color yellow = Color(0xFFE7BD46);
@@ -33,3 +33,4 @@ class AppColor {
   static const Color darkGreen = Color(0xFF419341);
   static const Color blueishGrey = Color(0xFF78ABD9);
 }
+// #f4f5f2

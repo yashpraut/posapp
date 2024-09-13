@@ -6,6 +6,7 @@ import '../configs/app_color.dart';
 class PrimaryButton extends StatelessWidget {
   const PrimaryButton(
       {super.key, required this.onPressed, required this.textValue});
+
   final void Function()? onPressed;
   final String textValue;
 
@@ -13,6 +14,9 @@ class PrimaryButton extends StatelessWidget {
   Widget build(BuildContext context) {
     return ElevatedButton(
       onPressed: onPressed,
+      style: ElevatedButton.styleFrom(
+          shape:
+              RoundedRectangleBorder(borderRadius: BorderRadius.circular(10))),
       child: Text(textValue,
           style: Theme.of(context)
               .textTheme

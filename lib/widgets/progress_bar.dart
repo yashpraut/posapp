@@ -21,7 +21,7 @@ class ProgressBar {
   static Widget showLoadingWidget(BuildContext context) {
     return const Center(
         child: CircularProgressIndicator(
-            valueColor: AlwaysStoppedAnimation<Color>(AppColor.blueGrey)));
+            valueColor: AlwaysStoppedAnimation<Color>(AppColor.lightBlue)));
   }
 
   static void dismiss(BuildContext context) {

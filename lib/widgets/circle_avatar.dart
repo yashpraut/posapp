@@ -12,7 +12,7 @@ class CircleAvatarWidget extends StatelessWidget {
       {super.key,
       this.radius,
       required this.imagePath,
-      this.backgroundColor = AppColor.blueGrey});
+      this.backgroundColor = AppColor.lightBlue});
 
   @override
   Widget build(BuildContext context) {

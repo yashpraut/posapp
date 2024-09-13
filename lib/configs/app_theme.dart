@@ -8,18 +8,21 @@ ThemeData appTheme = ThemeData(
     colorScheme: colorScheme,
     appBarTheme: appBarTheme,
     useMaterial3: false,
+    fontFamily: "Gilroy",
     listTileTheme: listTileTheme,
     cardTheme: appCardTheme,
     bottomAppBarTheme: bottomAppBarTheme,
     bottomNavigationBarTheme: bottomNavigationBarTheme,
     outlinedButtonTheme: outlinedButtonThemeData,
     textButtonTheme: textButtonTheme,
-    scaffoldBackgroundColor: AppColor.ghostWhite,
+    scaffoldBackgroundColor: AppColor.white,
     elevatedButtonTheme: elevatedButtonThemeData,
     floatingActionButtonTheme: floatingActionButtonThemeData,
     expansionTileTheme: expansionTileThemeData,
     iconButtonTheme: iconButtonThemeData,
-    iconTheme: iconThemeData);
+    iconTheme: iconThemeData,
+
+);
 
 FloatingActionButtonThemeData floatingActionButtonThemeData =
     const FloatingActionButtonThemeData(
@@ -64,7 +67,7 @@ BottomAppBarTheme bottomAppBarTheme = const BottomAppBarTheme(
 ListTileThemeData listTileTheme = const ListTileThemeData(dense: true);
 
 AppBarTheme appBarTheme = AppBarTheme(
-    elevation: 0, backgroundColor: AppColor.blueGrey, iconTheme: iconThemeData);
+    elevation: 0, backgroundColor: AppColor.lightBlue, iconTheme: iconThemeData);
 
 IconThemeData iconThemeData = const IconThemeData(color: AppColor.black);
 
